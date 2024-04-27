@@ -1,3 +1,5 @@
+using PIM_III.View;
+
 namespace PIM_III_ADS_VISITANTE
 {
     internal static class Program
@@ -11,7 +13,8 @@ namespace PIM_III_ADS_VISITANTE
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            //Application.Run(new Form1());
+            Application.Run(new LoginVisitante());
         }
     }
 }
