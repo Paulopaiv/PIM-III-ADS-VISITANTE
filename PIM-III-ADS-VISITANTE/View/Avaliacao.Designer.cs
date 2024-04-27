@@ -29,107 +29,13 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Avaliacao));
-            ckbBom = new CheckBox();
-            ckbRegular = new CheckBox();
-            ckbOtimo = new CheckBox();
-            ckbRuim = new CheckBox();
-            ckbExcelente = new CheckBox();
-            gpbAvaliacao = new GroupBox();
             lblPergunta = new Label();
-            gpbAvaliacao.SuspendLayout();
+            btnRuim = new Button();
+            btnRegular = new Button();
+            btnBom = new Button();
+            btnOtimo = new Button();
+            btnExcelente = new Button();
             SuspendLayout();
-            // 
-            // ckbBom
-            // 
-            ckbBom.Anchor = AnchorStyles.None;
-            ckbBom.Appearance = Appearance.Button;
-            ckbBom.AutoSize = true;
-            ckbBom.FlatAppearance.BorderSize = 0;
-            ckbBom.FlatStyle = FlatStyle.Flat;
-            ckbBom.Image = (Image)resources.GetObject("ckbBom.Image");
-            ckbBom.Location = new Point(802, 68);
-            ckbBom.Name = "ckbBom";
-            ckbBom.Size = new Size(126, 136);
-            ckbBom.TabIndex = 15;
-            ckbBom.UseVisualStyleBackColor = true;
-            ckbBom.CheckedChanged += CheckBoxes_CheckedChanged;
-            // 
-            // ckbRegular
-            // 
-            ckbRegular.Anchor = AnchorStyles.None;
-            ckbRegular.Appearance = Appearance.Button;
-            ckbRegular.AutoSize = true;
-            ckbRegular.FlatAppearance.BorderSize = 0;
-            ckbRegular.FlatStyle = FlatStyle.Flat;
-            ckbRegular.Image = (Image)resources.GetObject("ckbRegular.Image");
-            ckbRegular.Location = new Point(401, 72);
-            ckbRegular.Name = "ckbRegular";
-            ckbRegular.Size = new Size(126, 129);
-            ckbRegular.TabIndex = 14;
-            ckbRegular.UseVisualStyleBackColor = true;
-            ckbRegular.CheckedChanged += CheckBoxes_CheckedChanged;
-            // 
-            // ckbOtimo
-            // 
-            ckbOtimo.Anchor = AnchorStyles.None;
-            ckbOtimo.Appearance = Appearance.Button;
-            ckbOtimo.AutoSize = true;
-            ckbOtimo.FlatAppearance.BorderSize = 0;
-            ckbOtimo.FlatStyle = FlatStyle.Flat;
-            ckbOtimo.Image = (Image)resources.GetObject("ckbOtimo.Image");
-            ckbOtimo.Location = new Point(1195, 72);
-            ckbOtimo.Name = "ckbOtimo";
-            ckbOtimo.Size = new Size(126, 129);
-            ckbOtimo.TabIndex = 16;
-            ckbOtimo.UseVisualStyleBackColor = true;
-            ckbOtimo.CheckedChanged += CheckBoxes_CheckedChanged;
-            // 
-            // ckbRuim
-            // 
-            ckbRuim.Anchor = AnchorStyles.None;
-            ckbRuim.Appearance = Appearance.Button;
-            ckbRuim.AutoSize = true;
-            ckbRuim.FlatAppearance.BorderSize = 0;
-            ckbRuim.FlatStyle = FlatStyle.Flat;
-            ckbRuim.Image = (Image)resources.GetObject("ckbRuim.Image");
-            ckbRuim.Location = new Point(0, 73);
-            ckbRuim.Name = "ckbRuim";
-            ckbRuim.Size = new Size(126, 126);
-            ckbRuim.TabIndex = 13;
-            ckbRuim.UseVisualStyleBackColor = true;
-            ckbRuim.CheckedChanged += CheckBoxes_CheckedChanged;
-            // 
-            // ckbExcelente
-            // 
-            ckbExcelente.Anchor = AnchorStyles.None;
-            ckbExcelente.Appearance = Appearance.Button;
-            ckbExcelente.AutoSize = true;
-            ckbExcelente.FlatAppearance.BorderSize = 0;
-            ckbExcelente.FlatStyle = FlatStyle.Flat;
-            ckbExcelente.Image = (Image)resources.GetObject("ckbExcelente.Image");
-            ckbExcelente.Location = new Point(1587, 74);
-            ckbExcelente.Name = "ckbExcelente";
-            ckbExcelente.Size = new Size(126, 124);
-            ckbExcelente.TabIndex = 17;
-            ckbExcelente.UseVisualStyleBackColor = true;
-            ckbExcelente.CheckedChanged += CheckBoxes_CheckedChanged;
-            // 
-            // gpbAvaliacao
-            // 
-            gpbAvaliacao.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            gpbAvaliacao.BackColor = Color.Transparent;
-            gpbAvaliacao.Controls.Add(ckbOtimo);
-            gpbAvaliacao.Controls.Add(ckbExcelente);
-            gpbAvaliacao.Controls.Add(ckbRuim);
-            gpbAvaliacao.Controls.Add(ckbRegular);
-            gpbAvaliacao.Controls.Add(ckbBom);
-            gpbAvaliacao.FlatStyle = FlatStyle.Flat;
-            gpbAvaliacao.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            gpbAvaliacao.Location = new Point(51, 527);
-            gpbAvaliacao.Name = "gpbAvaliacao";
-            gpbAvaliacao.Size = new Size(1722, 245);
-            gpbAvaliacao.TabIndex = 12;
-            gpbAvaliacao.TabStop = false;
             // 
             // lblPergunta
             // 
@@ -145,6 +51,76 @@
             lblPergunta.Text = "Perguntas";
             lblPergunta.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // btnRuim
+            // 
+            btnRuim.BackColor = Color.Transparent;
+            btnRuim.BackgroundImageLayout = ImageLayout.None;
+            btnRuim.FlatStyle = FlatStyle.Flat;
+            btnRuim.Image = (Image)resources.GetObject("btnRuim.Image");
+            btnRuim.Location = new Point(60, 591);
+            btnRuim.Name = "btnRuim";
+            btnRuim.Size = new Size(105, 110);
+            btnRuim.TabIndex = 13;
+            btnRuim.Text = "Ruim";
+            btnRuim.UseVisualStyleBackColor = false;
+            btnRuim.Click += btnRuim_Click;
+            // 
+            // btnRegular
+            // 
+            btnRegular.BackColor = Color.Transparent;
+            btnRegular.BackgroundImageLayout = ImageLayout.None;
+            btnRegular.FlatStyle = FlatStyle.Flat;
+            btnRegular.Image = (Image)resources.GetObject("btnRegular.Image");
+            btnRegular.Location = new Point(460, 591);
+            btnRegular.Name = "btnRegular";
+            btnRegular.Size = new Size(105, 110);
+            btnRegular.TabIndex = 14;
+            btnRegular.Text = "Regular";
+            btnRegular.UseVisualStyleBackColor = false;
+            btnRegular.Click += btnRegular_Click;
+            // 
+            // btnBom
+            // 
+            btnBom.BackColor = Color.Transparent;
+            btnBom.BackgroundImageLayout = ImageLayout.None;
+            btnBom.FlatStyle = FlatStyle.Flat;
+            btnBom.Image = (Image)resources.GetObject("btnBom.Image");
+            btnBom.Location = new Point(860, 591);
+            btnBom.Name = "btnBom";
+            btnBom.Size = new Size(105, 110);
+            btnBom.TabIndex = 15;
+            btnBom.Text = "Bom";
+            btnBom.UseVisualStyleBackColor = false;
+            btnBom.Click += btnBom_Click;
+            // 
+            // btnOtimo
+            // 
+            btnOtimo.BackColor = Color.Transparent;
+            btnOtimo.BackgroundImageLayout = ImageLayout.None;
+            btnOtimo.FlatStyle = FlatStyle.Flat;
+            btnOtimo.Image = (Image)resources.GetObject("btnOtimo.Image");
+            btnOtimo.Location = new Point(1260, 591);
+            btnOtimo.Name = "btnOtimo";
+            btnOtimo.Size = new Size(105, 110);
+            btnOtimo.TabIndex = 16;
+            btnOtimo.Text = "Otimo";
+            btnOtimo.UseVisualStyleBackColor = false;
+            btnOtimo.Click += btnOtimo_Click;
+            // 
+            // btnExcelente
+            // 
+            btnExcelente.BackColor = Color.Transparent;
+            btnExcelente.BackgroundImageLayout = ImageLayout.None;
+            btnExcelente.FlatStyle = FlatStyle.Flat;
+            btnExcelente.Image = (Image)resources.GetObject("btnExcelente.Image");
+            btnExcelente.Location = new Point(1660, 591);
+            btnExcelente.Name = "btnExcelente";
+            btnExcelente.Size = new Size(105, 110);
+            btnExcelente.TabIndex = 17;
+            btnExcelente.Text = "Excelente";
+            btnExcelente.UseVisualStyleBackColor = false;
+            btnExcelente.Click += btnExcelente_Click;
+            // 
             // Avaliacao
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -152,14 +128,16 @@
             BackColor = Color.Black;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1825, 875);
-            Controls.Add(gpbAvaliacao);
+            Controls.Add(btnExcelente);
+            Controls.Add(btnOtimo);
+            Controls.Add(btnBom);
+            Controls.Add(btnRegular);
+            Controls.Add(btnRuim);
             Controls.Add(lblPergunta);
             Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             FormBorderStyle = FormBorderStyle.None;
             Name = "Avaliacao";
             Text = "Pergunta01";
-            gpbAvaliacao.ResumeLayout(false);
-            gpbAvaliacao.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -170,12 +148,11 @@
         private RadioButton rbnBom;
         private RadioButton rbnOtimo;
         private RadioButton rbnExcelente;
-        private CheckBox ckbBom;
-        private CheckBox ckbRegular;
-        private CheckBox ckbOtimo;
-        private CheckBox ckbRuim;
-        private CheckBox ckbExcelente;
-        private GroupBox gpbAvaliacao;
         private Label lblPergunta;
+        private Button btnRuim;
+        private Button btnRegular;
+        private Button btnBom;
+        private Button btnOtimo;
+        private Button btnExcelente;
     }
 }

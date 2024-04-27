@@ -4,14 +4,19 @@ namespace PIM_III_ADS_2P17_AVALIACAO.Controle
 {
     public class AvaliacaoControle
     {
-        
-        private CheckBox ruim;
-        private CheckBox regular;
-        private CheckBox bom;
-        private CheckBox otimo;
-        private CheckBox excelente;
 
-        public AvaliacaoControle(CheckBox ruim, CheckBox regular, CheckBox bom, CheckBox otimo, CheckBox excelente)
+        private bool ruim;
+        private bool regular;
+        private bool bom;
+        private bool otimo;
+        private bool excelente;
+
+        public AvaliacaoControle()
+        {
+
+        }
+
+        public AvaliacaoControle(bool ruim, bool regular, bool bom, bool otimo, bool excelente)
         {
             this.ruim = ruim;
             this.regular = regular;
@@ -19,54 +24,95 @@ namespace PIM_III_ADS_2P17_AVALIACAO.Controle
             this.otimo = otimo;
             this.excelente = excelente;
         }
-      
 
-        public CheckBox CheckBoxSelecionado
+        public string AvaliacaoSelecionada()
+        {
+            if (Ruim)
+            {
+                return "Ruim";
+            }
+            else if (Regular)
+            {
+                return "Regular";
+            }
+            else if (Bom)
+            {
+                return "Bom";
+            }
+            else if (Otimo)
+            {
+                return "Otimo";
+            }
+            else if (Excelente)
+            {
+                return "Excelente";
+            }
+            else
+            {
+                return "Nenhuma avaliação selecionada";
+            }
+        }
+
+
+        public bool Excelente
         {
             get
             {
-                if (ruim.Checked)
-                    return ruim;
-                else if (regular.Checked)
-                    return regular;
-                else if (bom.Checked)
-                    return bom;
-                else if (otimo.Checked)
-                    return otimo;
-                else if (excelente.Checked)
-                    return excelente;
-                else
-                    return null; // Nenhuma opção selecionada
+                return excelente;
             }
-        }
-
-
-        public CheckBox Ruim { get => ruim; set => ruim = value; }
-        public CheckBox Regular { get => regular; set => regular = value; }
-        public CheckBox Bom { get => bom; set => bom = value; }
-        public CheckBox Otimo { get => otimo; set => otimo = value; }
-        public CheckBox Excelente { get => excelente; set => excelente = value; }
-
-        internal Modelo.AvaliacaoModel AvaliacaoModel
-        {
-            get => default;
             set
             {
+                excelente = value;
             }
         }
 
-        public void LimparSelecaoCheckBoxes()
+
+        public bool Otimo
         {
-            ruim.Checked = false;
-            regular.Checked = false;
-            bom.Checked = false;
-            otimo.Checked = false;
-            excelente.Checked = false;
+            get
+            {
+                return otimo;
+            }
+            set
+            {
+                otimo = value;
+            }
         }
 
-        public static class UsuarioLogado
+        public bool Bom
         {
-            public static string Codigo { get; set; }
+            get
+            {
+                return bom;
+            }
+            set
+            {
+                bom = value;
+            }
+        }
+
+        public bool Regular
+        {
+            get
+            {
+                return regular;
+            }
+            set
+            {
+                regular = value;
+            }
+        }
+
+        public bool Ruim
+        {
+            get
+            {
+                return ruim;
+            }
+            set
+            {
+                ruim = value;
+            }
         }
     }
 }

@@ -1,6 +1,4 @@
-﻿
-using PIM_III_ADS_2P17.Servico;
-
+﻿using PIM_III_ADS_2P17.Servico;
 using PIM_III_ADS_2P17_AVALIACAO.Controle;
 
 namespace PIM_III_ADS_2P17.Controle
@@ -16,36 +14,17 @@ namespace PIM_III_ADS_2P17.Controle
 
         }
 
-        public PessoaModel(PessoaControle pessoa)
+        public void Login(PessoaControle pessoa)
         {
-            this.Login(pessoa);
-        }
+            var pessoaEncontrada = pessoaServico.BuscarPorCodigo(pessoa);
 
-        //internal void Login(PessoaControle pessoa)
-        //{
-        //   var codigo = pessoaServico.BuscarPorCodigo(pessoa);
-
-        //    if (codigo.Codigo != null)
-        //    {
-        //        this.mensagem = "O token fornecido é inválido. Por favor, verifique e tente novamente.";
-        //    }
-        //    else
-        //    {
-        //        this.mensagem = $"Olá, {pessoa.Nome}! Por favor, responda o questionário a seguir.";
-        //    }
-        //}
-
-        internal void Login(PessoaControle pessoa)
-        {
-            var codigo = pessoaServico.BuscarPorCodigo(pessoa);
-
-            if (codigo != null)
+            if (pessoaEncontrada != null)
             {
-                this.mensagem = "O token fornecido é inválido. Por favor, verifique e tente novamente.";
+                this.mensagem = $"Olá, {pessoaEncontrada.Nome}! Por favor, responda o questionário a seguir.";
             }
             else
             {
-                this.mensagem = $"Olá, {pessoa.Nome}! Por favor, responda o questionário a seguir.";
+                this.mensagem = "O token fornecido é inválido. Por favor, verifique e tente novamente.";
             }
         }
 
@@ -53,12 +32,5 @@ namespace PIM_III_ADS_2P17.Controle
         {
             get { return mensagem; }
         }
-        public PessoaServico PessoaServico
-        {
-            get { return pessoaServico; }
-            set { pessoaServico = value; }
-        }
-
     }
 }
-

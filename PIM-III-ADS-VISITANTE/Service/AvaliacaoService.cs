@@ -25,7 +25,7 @@ namespace PIM_III_ADS_2P17_AVALIACAO.Servico
                     command.Parameters.AddWithValue("@Data", DateTime.Now);
 
                     int linhasAfetadas = command.ExecuteNonQuery();
-                    conexao.Close(); 
+                    conexao.Close();
 
                     if (linhasAfetadas > 0)
                     {

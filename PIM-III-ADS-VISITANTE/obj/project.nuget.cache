@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "I9/4K/wxiaaoo1V7DBxwDrX+TnuNBo9kIf7iR5KfO4UY53/sZesslIojdajlJ5I7GCE75Emsbi6cOWrzGWme9Q==",
+  "dgSpecHash": "8Erpajbh+lnuw86E15drxjt14NJZtqi6CGoKpS1HfoZM+WKjSSFe0UQT2PT5Caxz901KG79BDhzJwnqk1SUwsw==",
   "success": true,
   "projectFilePath": "D:\\Paulo & Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Paulo & Rebeca\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
+    "C:\\Users\\Paulo & Rebeca\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Paulo & Rebeca\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Paulo & Rebeca\\.nuget\\packages\\npgsql\\8.0.2\\npgsql.8.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,69 +1,67 @@
-﻿using System;
-using System.Windows.Forms;
+﻿
 using PIM_III_ADS_2P17_AVALIACAO.Controle;
 using PIM_III_ADS_2P17_AVALIACAO.Modelo;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.TaskbarClock;
 
 namespace PIM_III.View
 {
     public partial class Avaliacao : Form
     {
-        PerguntasControle perguntas;
-        AvaliacaoControle avaliacao;
+        private AvaliacaoControle avaliacaoControle;
+        private PerguntasControle perguntasControle;
+        private AvaliacaoModel avaliacaoModel;
 
         public Avaliacao()
         {
             InitializeComponent();
 
-            perguntas = new PerguntasControle(avaliacao, gpbAvaliacao);
-
             this.WindowState = FormWindowState.Maximized;
 
-            ExibirPerguntaAtual();
+            avaliacaoControle = new AvaliacaoControle();
+            perguntasControle = new PerguntasControle();
+            avaliacaoModel = new AvaliacaoModel();
+            AtualizarPergunta();
         }
 
-        public AvaliacaoControle AvaliacaoControle
+        private void AtualizarPergunta()
         {
-            get => default;
-            set
-            {
-            }
+            lblPergunta.Text = perguntasControle.ProximaPergunta();
         }
 
-        public PerguntasControle PerguntasControle
+
+        private void btnRuim_Click(object sender, EventArgs e)
         {
-            get => default;
-            set
-            {
-            }
+            avaliacaoControle.Ruim = false;
+            AtualizarPergunta();
+            //avaliacaoModel.SalvarVoto();
         }
 
-        private void CheckBoxes_CheckedChanged(object sender, EventArgs e)
+        private void btnRegular_Click(object sender, EventArgs e)
         {
-            CheckBox checkBox = sender as CheckBox;
-            if (checkBox.Checked)
-            {
-
-                AvaliacaoControle avaliacao = new AvaliacaoControle(
-                    ckbRuim, ckbRegular, ckbBom, ckbOtimo, ckbExcelente
-                );
-
-                AvaliacaoModel avaliacaoModel = new AvaliacaoModel(perguntas, avaliacao);
-                avaliacaoModel.RegistrarVoto();
-
-                perguntas.LimparSelecaoCheckBox(gpbAvaliacao.Controls);
-
-                ExibirPerguntaAtual();
-            }
+            avaliacaoControle.Regular = false;
+            AtualizarPergunta();
+            //avaliacaoModel.SalvarVoto();
         }
 
-        private void ExibirPerguntaAtual()
+        private void btnBom_Click(object sender, EventArgs e)
         {
-            lblPergunta.MaximumSize = new Size(1200, 0);
-            lblPergunta.TextAlign = ContentAlignment.MiddleCenter;
-            lblPergunta.Text = perguntas.ObterPerguntaAtual();
-            int topPosition = (int)(7 * CreateGraphics().DpiY / 2.54);
-            int leftPosition = (this.ClientSize.Width - lblPergunta.Width) / 2;
-            lblPergunta.Location = new Point(leftPosition, topPosition);
+            avaliacaoControle.Bom = false;
+            AtualizarPergunta();
+            //avaliacaoModel.SalvarVoto();
+        }
+
+        private void btnOtimo_Click(object sender, EventArgs e)
+        {
+            avaliacaoControle.Otimo = false;
+            AtualizarPergunta();
+            //avaliacaoModel.SalvarVoto();
+        }
+
+        private void btnExcelente_Click(object sender, EventArgs e)
+        {
+            avaliacaoControle.Excelente = false;
+            AtualizarPergunta();
+            //avaliacaoModel.SalvarVoto();
         }
     }
 }
