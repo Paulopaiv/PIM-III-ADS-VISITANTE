@@ -11,22 +11,26 @@ namespace PIM_III_ADS_2P17_AVALIACAO.Modelo
         private AvaliacaoControle avaliacao;
         private PessoaControle pessoa;
 
+        public AvaliacaoModel(PessoaControle pessoa,AvaliacaoControle avaliacao, PerguntasControle perguntas)
+        {
+            this.avaliacao = avaliacao;
+            this.perguntas= perguntas;
+            this.pessoa = pessoa;
+        }
+
         internal void SalvarVoto()
         {
-            string perguntaAtual = perguntas.PerguntaAtual();
             string avaliacaoAtual = avaliacao.AvaliacaoSelecionada();
             string codigoUsuario = pessoa.Codigo;
+            string perguntaAtual = perguntas.PerguntaAtual();
 
             if (perguntaAtual == "Obrigado por participar! Volte sempre.")
             {
-                // Não salvar no banco
                 return;
             }
 
-            // Utiliza o código do usuário armazenado na classe estática
             avaliacaoService.RegistrarVoto(perguntaAtual, avaliacaoAtual, codigoUsuario);
 
-            // Avança para a próxima pergunta
             perguntas.IndicePergunta++;
         }
     }

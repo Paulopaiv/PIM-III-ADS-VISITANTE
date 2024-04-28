@@ -35,6 +35,8 @@
             btnBom = new Button();
             btnOtimo = new Button();
             btnExcelente = new Button();
+            pnlAvaliacao = new Panel();
+            pnlAvaliacao.SuspendLayout();
             SuspendLayout();
             // 
             // lblPergunta
@@ -57,7 +59,7 @@
             btnRuim.BackgroundImageLayout = ImageLayout.None;
             btnRuim.FlatStyle = FlatStyle.Flat;
             btnRuim.Image = (Image)resources.GetObject("btnRuim.Image");
-            btnRuim.Location = new Point(60, 591);
+            btnRuim.Location = new Point(54, 36);
             btnRuim.Name = "btnRuim";
             btnRuim.Size = new Size(105, 110);
             btnRuim.TabIndex = 13;
@@ -71,7 +73,7 @@
             btnRegular.BackgroundImageLayout = ImageLayout.None;
             btnRegular.FlatStyle = FlatStyle.Flat;
             btnRegular.Image = (Image)resources.GetObject("btnRegular.Image");
-            btnRegular.Location = new Point(460, 591);
+            btnRegular.Location = new Point(454, 36);
             btnRegular.Name = "btnRegular";
             btnRegular.Size = new Size(105, 110);
             btnRegular.TabIndex = 14;
@@ -85,7 +87,7 @@
             btnBom.BackgroundImageLayout = ImageLayout.None;
             btnBom.FlatStyle = FlatStyle.Flat;
             btnBom.Image = (Image)resources.GetObject("btnBom.Image");
-            btnBom.Location = new Point(860, 591);
+            btnBom.Location = new Point(854, 36);
             btnBom.Name = "btnBom";
             btnBom.Size = new Size(105, 110);
             btnBom.TabIndex = 15;
@@ -99,7 +101,7 @@
             btnOtimo.BackgroundImageLayout = ImageLayout.None;
             btnOtimo.FlatStyle = FlatStyle.Flat;
             btnOtimo.Image = (Image)resources.GetObject("btnOtimo.Image");
-            btnOtimo.Location = new Point(1260, 591);
+            btnOtimo.Location = new Point(1254, 36);
             btnOtimo.Name = "btnOtimo";
             btnOtimo.Size = new Size(105, 110);
             btnOtimo.TabIndex = 16;
@@ -113,13 +115,26 @@
             btnExcelente.BackgroundImageLayout = ImageLayout.None;
             btnExcelente.FlatStyle = FlatStyle.Flat;
             btnExcelente.Image = (Image)resources.GetObject("btnExcelente.Image");
-            btnExcelente.Location = new Point(1660, 591);
+            btnExcelente.Location = new Point(1654, 36);
             btnExcelente.Name = "btnExcelente";
             btnExcelente.Size = new Size(105, 110);
             btnExcelente.TabIndex = 17;
             btnExcelente.Text = "Excelente";
             btnExcelente.UseVisualStyleBackColor = false;
             btnExcelente.Click += btnExcelente_Click;
+            // 
+            // pnlAvaliacao
+            // 
+            pnlAvaliacao.Anchor = AnchorStyles.None;
+            pnlAvaliacao.Controls.Add(btnExcelente);
+            pnlAvaliacao.Controls.Add(btnOtimo);
+            pnlAvaliacao.Controls.Add(btnBom);
+            pnlAvaliacao.Controls.Add(btnRegular);
+            pnlAvaliacao.Controls.Add(btnRuim);
+            pnlAvaliacao.Location = new Point(6, 555);
+            pnlAvaliacao.Name = "pnlAvaliacao";
+            pnlAvaliacao.Size = new Size(1815, 212);
+            pnlAvaliacao.TabIndex = 18;
             // 
             // Avaliacao
             // 
@@ -128,16 +143,13 @@
             BackColor = Color.Black;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1825, 875);
-            Controls.Add(btnExcelente);
-            Controls.Add(btnOtimo);
-            Controls.Add(btnBom);
-            Controls.Add(btnRegular);
-            Controls.Add(btnRuim);
+            Controls.Add(pnlAvaliacao);
             Controls.Add(lblPergunta);
             Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             FormBorderStyle = FormBorderStyle.None;
             Name = "Avaliacao";
             Text = "Pergunta01";
+            pnlAvaliacao.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -154,5 +166,6 @@
         private Button btnBom;
         private Button btnOtimo;
         private Button btnExcelente;
+        private Panel pnlAvaliacao;
     }
 }

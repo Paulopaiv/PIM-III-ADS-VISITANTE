@@ -12,11 +12,6 @@ namespace PIM_III_ADS_2P17_AVALIACAO.Controle
 
         }
 
-        public PessoaControle(string codigo)
-        {
-            this.codigo = codigo;
-        }
-
         public string Nome
         {
             get

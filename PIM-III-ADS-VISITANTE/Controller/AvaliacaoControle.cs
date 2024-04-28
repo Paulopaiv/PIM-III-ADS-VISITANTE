@@ -53,7 +53,6 @@ namespace PIM_III_ADS_2P17_AVALIACAO.Controle
             }
         }
 
-
         public bool Excelente
         {
             get
@@ -65,7 +64,6 @@ namespace PIM_III_ADS_2P17_AVALIACAO.Controle
                 excelente = value;
             }
         }
-
 
         public bool Otimo
         {
@@ -116,3 +114,8 @@ namespace PIM_III_ADS_2P17_AVALIACAO.Controle
         }
     }
 }
+
+
+
+
+
