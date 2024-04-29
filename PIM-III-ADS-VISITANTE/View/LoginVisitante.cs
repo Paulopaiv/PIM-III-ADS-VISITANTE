@@ -21,14 +21,6 @@ namespace PIM_III.View
             pessoaModel = new PessoaModel();
         }
 
-        public PessoaModel PessoaController
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
         private void TextBox1_Click(object sender, EventArgs e)
         {
             // Verifica se o teclado ainda não foi instanciado
@@ -60,8 +52,13 @@ namespace PIM_III.View
             {
                 MessageBox.Show(pessoaModel.Mensagem);
             }
+            LimparCampos();
         }
 
+        private void LimparCampos()
+        {
+            txbCodigoVisitante.Text = string.Empty;
+        }
 
     }
 }

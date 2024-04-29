@@ -171,6 +171,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
+            BackgroundImage = PIM_III_ADS_VISITANTE.Properties.Resources.Blue_Stars_and_Moon_Galaxy_Zoom_Virtual_Background_02;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1825, 875);
             Controls.Add(pnlAvaliacao);

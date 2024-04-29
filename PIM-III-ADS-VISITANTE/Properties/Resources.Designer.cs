@@ -63,6 +63,16 @@ namespace PIM_III_ADS_VISITANTE.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _Black_And_Grey_Illustration_Did_You_Know_Instagram_Post {
+            get {
+                object obj = ResourceManager.GetObject("_Black And Grey Illustration Did You Know Instagram Post", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Blue_Stars_and_Moon_Galaxy_Zoom_Virtual_Background_02 {
             get {
                 object obj = ResourceManager.GetObject("Blue Stars and Moon Galaxy Zoom Virtual Background 02", resourceCulture);

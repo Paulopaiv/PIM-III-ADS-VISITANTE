@@ -1,9 +1,11 @@
-﻿using WinFormsTimer = System.Windows.Forms.Timer;
+﻿using PIM_III_ADS_VISITANTE.View;
+using WinFormsTimer = System.Windows.Forms.Timer;
 
 namespace PIM_III_ADS_VISITANTE.Controller
 {
     public class PerguntasController
     {
+        private Obrigado obrigado;
         private WinFormsTimer timer;
         private Panel pnlAvaliacao;
         private int indicePergunta = 0;
@@ -22,10 +24,10 @@ namespace PIM_III_ADS_VISITANTE.Controller
 
             this.pnlAvaliacao = pnlAvaliacao; // Armazene a referência ao GroupBox
 
-
+            obrigado = new Obrigado();
             // Inicialize o temporizador
             timer = new WinFormsTimer();
-            timer.Interval = 2000; // Defina o intervalo do temporizador para 2 segundos
+            timer.Interval = 4000; // Defina o intervalo do temporizador para 2 segundos
             timer.Tick += Timer_Tick; // Adicione um manipulador de eventos para o evento Tick do temporizador
         }
 
@@ -39,7 +41,10 @@ namespace PIM_III_ADS_VISITANTE.Controller
             {
                 pnlAvaliacao.Visible = false;
                 timer.Start();
-                return "Obrigado por participar! Volte sempre.";
+
+                obrigado.Show();
+
+                return "";
             }
         }
 

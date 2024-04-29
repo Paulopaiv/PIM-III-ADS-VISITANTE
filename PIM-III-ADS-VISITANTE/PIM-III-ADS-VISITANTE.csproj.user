@@ -7,6 +7,9 @@
     <Compile Update="View\LoginVisitante.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="View\Obrigado.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="View\Utils\Teclado.cs">
       <SubType>Form</SubType>
     </Compile>
