@@ -59,6 +59,7 @@
             txbCodigoVisitante.Name = "txbCodigoVisitante";
             txbCodigoVisitante.Size = new Size(180, 23);
             txbCodigoVisitante.TabIndex = 2;
+            txbCodigoVisitante.Click += TextBox1_Click;
             // 
             // BtnEntrar
             // 

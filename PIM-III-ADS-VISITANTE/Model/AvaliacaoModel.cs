@@ -1,20 +1,19 @@
-﻿
-using PIM_III_ADS_2P17_AVALIACAO.Controle;
-using PIM_III_ADS_2P17_AVALIACAO.Servico;
+﻿using PIM_III_ADS_2P17_AVALIACAO.Servico;
+using PIM_III_ADS_VISITANTE.Model;
 
-namespace PIM_III_ADS_2P17_AVALIACAO.Modelo
+namespace PIM_III_ADS_VISITANTE.Controller
 {
     public class AvaliacaoModel
     {
         private AvaliacaoService avaliacaoService = new AvaliacaoService();
-        private PerguntasControle perguntas;
-        private AvaliacaoControle avaliacao;
-        private PessoaControle pessoa;
+        private PerguntasController perguntas;
+        private AvaliacaoController avaliacao;
+        private PessoaController pessoa;
 
-        public AvaliacaoModel(PessoaControle pessoa,AvaliacaoControle avaliacao, PerguntasControle perguntas)
+        public AvaliacaoModel(PessoaController pessoa, AvaliacaoController avaliacao, PerguntasController perguntas)
         {
             this.avaliacao = avaliacao;
-            this.perguntas= perguntas;
+            this.perguntas = perguntas;
             this.pessoa = pessoa;
         }
 

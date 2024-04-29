@@ -1,28 +1,48 @@
 ﻿
-using PIM_III_ADS_2P17.Controle;
-using PIM_III_ADS_2P17_AVALIACAO.Controle;
-using PIM_III_ADS_2P17_AVALIACAO.Modelo;
-using static PIM_III_ADS_2P17_AVALIACAO.Controle.AvaliacaoControle;
+using PIM_III_ADS_VISITANTE.Controller;
+using PIM_III_ADS_VISITANTE.Model;
+using TesteTecladoCerto;
+using static PIM_III_ADS_VISITANTE.Controller.AvaliacaoModel;
 
 namespace PIM_III.View
 {
     public partial class LoginVisitante : Form
     {
         private PessoaModel pessoaModel;
-        private PessoaControle pessoa;
-       
-
+        private PessoaController pessoa;
+        private Teclado teclado;
 
         public LoginVisitante()
         {
             InitializeComponent();
 
             this.WindowState = FormWindowState.Maximized;
-            pessoa = new PessoaControle();
+            pessoa = new PessoaController();
             pessoaModel = new PessoaModel();
-           
         }
 
+        public PessoaModel PessoaController
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        private void TextBox1_Click(object sender, EventArgs e)
+        {
+            // Verifica se o teclado ainda não foi instanciado
+            if (teclado == null)
+            {
+                // Cria uma nova instância do teclado
+                teclado = new Teclado();
+            }
+
+            // Define a TextBox clicada como o TextBox de destino do teclado
+            teclado.SetTargetTextBox(sender as TextBox);
+
+            teclado.Show();
+        }
 
         private void BtnEntrar_Click(object sender, EventArgs e)
         {
@@ -40,7 +60,8 @@ namespace PIM_III.View
             {
                 MessageBox.Show(pessoaModel.Mensagem);
             }
-
         }
+
+
     }
 }

@@ -1,8 +1,8 @@
 ﻿using System.Windows.Forms;
 
-namespace PIM_III_ADS_2P17_AVALIACAO.Controle
+namespace PIM_III_ADS_VISITANTE.Model
 {
-    public class AvaliacaoControle
+    public class AvaliacaoController
     {
 
         private bool ruim;
@@ -11,12 +11,12 @@ namespace PIM_III_ADS_2P17_AVALIACAO.Controle
         private bool otimo;
         private bool excelente;
 
-        public AvaliacaoControle()
+        public AvaliacaoController()
         {
 
         }
 
-        public AvaliacaoControle(bool ruim, bool regular, bool bom, bool otimo, bool excelente)
+        public AvaliacaoController(bool ruim, bool regular, bool bom, bool otimo, bool excelente)
         {
             this.ruim = ruim;
             this.regular = regular;

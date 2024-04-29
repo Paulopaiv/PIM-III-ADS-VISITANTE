@@ -1,10 +1,10 @@
 ﻿using WinFormsTimer = System.Windows.Forms.Timer;
 
-namespace PIM_III_ADS_2P17_AVALIACAO.Controle
+namespace PIM_III_ADS_VISITANTE.Controller
 {
-    public class PerguntasControle
+    public class PerguntasController
     {
-        private System.Windows.Forms.Timer timer;
+        private WinFormsTimer timer;
         private Panel pnlAvaliacao;
         private int indicePergunta = 0;
         private string[] perguntas = {
@@ -15,11 +15,11 @@ namespace PIM_III_ADS_2P17_AVALIACAO.Controle
              "Considerando sua visita ao museu, como você classificaria sua satisfação geral?",
              "Como você avalia a facilidade de uso do sistema dos totens para interagir com as exposições?"
         };
-        
 
-        public PerguntasControle(Panel pnlAvaliacao)
+
+        public PerguntasController(Panel pnlAvaliacao)
         {
-           
+
             this.pnlAvaliacao = pnlAvaliacao; // Armazene a referência ao GroupBox
 
 
@@ -48,10 +48,10 @@ namespace PIM_III_ADS_2P17_AVALIACAO.Controle
 
             timer.Stop();
 
-     
+
             ((Form)pnlAvaliacao.Parent).Close();
         }
-        
+
 
         public string[] Perguntas
         {

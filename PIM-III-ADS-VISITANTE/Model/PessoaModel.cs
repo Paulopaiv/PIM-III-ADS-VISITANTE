@@ -1,7 +1,7 @@
 ﻿using PIM_III_ADS_2P17.Servico;
-using PIM_III_ADS_2P17_AVALIACAO.Controle;
+using PIM_III_ADS_VISITANTE.Controller;
 
-namespace PIM_III_ADS_2P17.Controle
+namespace PIM_III_ADS_VISITANTE.Model
 {
     public class PessoaModel
     {
@@ -14,23 +14,31 @@ namespace PIM_III_ADS_2P17.Controle
 
         }
 
-        public void Login(PessoaControle pessoa)
+        public void Login(PessoaController pessoa)
         {
             var pessoaEncontrada = pessoaServico.BuscarPorCodigo(pessoa);
 
             if (pessoaEncontrada != null)
             {
-                this.mensagem = $"Olá, {pessoaEncontrada.Nome}! Por favor, responda o questionário a seguir.";
+                mensagem = $"Olá, {pessoaEncontrada.Nome}! Por favor, responda o questionário a seguir.";
             }
             else
             {
-                this.mensagem = "O token fornecido é inválido. Por favor, verifique e tente novamente.";
+                mensagem = "O token fornecido é inválido. Por favor, verifique e tente novamente.";
             }
         }
 
         public string Mensagem
         {
             get { return mensagem; }
+        }
+
+        public Dbconexao Dbconexao
+        {
+            get => default;
+            set
+            {
+            }
         }
     }
 }

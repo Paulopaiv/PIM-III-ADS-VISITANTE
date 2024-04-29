@@ -59,5 +59,15 @@ namespace PIM_III_ADS_VISITANTE.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Blue_Stars_and_Moon_Galaxy_Zoom_Virtual_Background_02 {
+            get {
+                object obj = ResourceManager.GetObject("Blue Stars and Moon Galaxy Zoom Virtual Background 02", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

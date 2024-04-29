@@ -1,8 +1,7 @@
 ﻿using Npgsql;
 using System;
 using Dapper;
-
-using PIM_III_ADS_2P17_AVALIACAO.Controle;
+using PIM_III_ADS_VISITANTE.Controller;
 
 namespace PIM_III_ADS_2P17.Servico
 {
@@ -15,7 +14,7 @@ namespace PIM_III_ADS_2P17.Servico
             this.dbconexao = conexao;
         }
 
-        public PessoaControle BuscarPorCodigo(PessoaControle pessoa)
+        public PessoaController BuscarPorCodigo(PessoaController pessoa)
         {
             using (var conexao = new Dbconexao())
             {

@@ -1,24 +1,23 @@
-﻿
-using PIM_III_ADS_2P17_AVALIACAO.Controle;
-using PIM_III_ADS_2P17_AVALIACAO.Modelo;
+﻿using PIM_III_ADS_VISITANTE.Controller;
+using PIM_III_ADS_VISITANTE.Model;
 
 
 namespace PIM_III.View
 {
     public partial class Avaliacao : Form
     {
-        private AvaliacaoControle avaliacaoControle;
-        private PerguntasControle perguntasControle;
+        private AvaliacaoController avaliacaoControle;
+        private PerguntasController perguntasControle;
         private AvaliacaoModel avaliacaoModel;
-        private PessoaControle pessoa;
+        private PessoaController pessoa;
 
-        public Avaliacao(PessoaControle pessoa)
+        public Avaliacao(PessoaController pessoa)
         {
             InitializeComponent();
             this.WindowState = FormWindowState.Maximized;
             this.pessoa = pessoa;
-            avaliacaoControle = new AvaliacaoControle();
-            perguntasControle = new PerguntasControle(pnlAvaliacao);
+            avaliacaoControle = new AvaliacaoController();
+            perguntasControle = new PerguntasController(pnlAvaliacao);
             avaliacaoModel = new AvaliacaoModel(pessoa, avaliacaoControle, perguntasControle);
             AtualizarPergunta();
         }
@@ -33,59 +32,44 @@ namespace PIM_III.View
             lblPergunta.Location = new Point(leftPosition, topPosition);
         }
 
-        private void btnRuim_Click(object sender, EventArgs e)
+        private void btnAvaliacao_Click(object sender, EventArgs e)
         {
-            avaliacaoControle.Ruim = true;
-            avaliacaoControle.Regular = false;
-            avaliacaoControle.Bom = false;
-            avaliacaoControle.Otimo = false;
-            avaliacaoControle.Excelente = false;
+            Button clickedButton = (Button)sender;
+            bool ruim = false, regular = false, bom = false, otimo = false, excelente = false;
+            switch (clickedButton.Name)
+            {
+                case "btnRuim":
+                    ruim = true;
+                    break;
+                case "btnRegular":
+                    regular = true;
+                    break;
+                case "btnBom":
+                    bom = true;
+                    break;
+                case "btnOtimo":
+                    otimo = true;
+                    break;
+                case "btnExcelente":
+                    excelente = true;
+                    break;
+                default:
+                    break;
+            }
+
+            AtualizarAvaliacao(ruim, regular, bom, otimo, excelente);
+        }
+
+        private void AtualizarAvaliacao(bool ruim, bool regular, bool bom, bool otimo, bool excelente)
+        {
+            avaliacaoControle.Ruim = ruim;
+            avaliacaoControle.Regular = regular;
+            avaliacaoControle.Bom = bom;
+            avaliacaoControle.Otimo = otimo;
+            avaliacaoControle.Excelente = excelente;
             avaliacaoModel.SalvarVoto();
             AtualizarPergunta();
         }
 
-        private void btnRegular_Click(object sender, EventArgs e)
-        {
-            avaliacaoControle.Regular = true;
-            avaliacaoControle.Ruim = false;
-            avaliacaoControle.Bom = false;
-            avaliacaoControle.Otimo = false;
-            avaliacaoControle.Excelente = false;
-            avaliacaoModel.SalvarVoto();
-            AtualizarPergunta();
-        }
-
-        private void btnBom_Click(object sender, EventArgs e)
-        {
-            avaliacaoControle.Bom = true;
-            avaliacaoControle.Ruim = false;
-            avaliacaoControle.Regular = false;
-            avaliacaoControle.Otimo = false;
-            avaliacaoControle.Excelente = false;
-            avaliacaoModel.SalvarVoto();
-            AtualizarPergunta();
-        }
-
-        private void btnOtimo_Click(object sender, EventArgs e)
-        {
-            avaliacaoControle.Otimo = true;
-            avaliacaoControle.Ruim = false;
-            avaliacaoControle.Regular = false;
-            avaliacaoControle.Bom = false;
-            avaliacaoControle.Excelente = false;
-            avaliacaoModel.SalvarVoto();
-            AtualizarPergunta();
-        }
-
-        private void btnExcelente_Click(object sender, EventArgs e)
-        {
-            avaliacaoControle.Excelente = true;
-            avaliacaoControle.Ruim = false;
-            avaliacaoControle.Regular = false;
-            avaliacaoControle.Bom = false;
-            avaliacaoControle.Otimo = false;
-            avaliacaoModel.SalvarVoto();
-            AtualizarPergunta();
-        }
     }
 }

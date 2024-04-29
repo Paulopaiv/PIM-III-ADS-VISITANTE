@@ -1,13 +1,11 @@
-﻿using PIM_III_ADS_2P17.Controle;
-
-namespace PIM_III_ADS_2P17_AVALIACAO.Controle
+﻿namespace PIM_III_ADS_VISITANTE.Controller
 {
-    public class PessoaControle
+    public class PessoaController
     {
         private string nome;
         private string codigo;
 
-        public PessoaControle()
+        public PessoaController()
         {
 
         }
