@@ -33,12 +33,6 @@ namespace PIM_III_ADS_VISITANTE.Model
             get { return mensagem; }
         }
 
-        public Dbconexao Dbconexao
-        {
-            get => default;
-            set
-            {
-            }
-        }
+      
     }
 }
