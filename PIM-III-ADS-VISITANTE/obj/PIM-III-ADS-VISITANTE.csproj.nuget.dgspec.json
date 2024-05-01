@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Paulo & Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj": {}
+    "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\Visitante1\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj": {}
   },
   "projects": {
-    "D:\\Paulo & Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj": {
+    "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\Visitante1\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Paulo & Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj",
+        "projectUniqueName": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\Visitante1\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj",
         "projectName": "PIM-III-ADS-VISITANTE",
-        "projectPath": "D:\\Paulo & Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj",
-        "packagesPath": "C:\\Users\\Paulo & Rebeca\\.nuget\\packages\\",
-        "outputPath": "D:\\Paulo & Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\obj\\",
+        "projectPath": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\Visitante1\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj",
+        "packagesPath": "C:\\Users\\kenzo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\Visitante1\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Paulo & Rebeca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kenzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
