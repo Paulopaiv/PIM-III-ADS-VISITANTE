@@ -1,13 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\",
+  "WorkspaceRootPath": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\Visitante1\\PIM-III-ADS-VISITANTE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{59C2032D-1FC2-4A1F-BB71-4438D626DF5F}|PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj|d:\\paulo \u0026 rebeca\\git-hub-paulo\\pim-iii-ads-visitante\\pim-iii-ads-visitante\\pim-iii-ads-visitante\\view\\avaliacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{59C2032D-1FC2-4A1F-BB71-4438D626DF5F}|PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj|c:\\users\\kenzo\\onedrive\\documentos\\pim\\visitante1\\pim-iii-ads-visitante\\pim-iii-ads-visitante\\view\\avaliacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59C2032D-1FC2-4A1F-BB71-4438D626DF5F}|PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj|solutionrelative:pim-iii-ads-visitante\\view\\avaliacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59C2032D-1FC2-4A1F-BB71-4438D626DF5F}|PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj|c:\\users\\kenzo\\onedrive\\documentos\\pim\\visitante1\\pim-iii-ads-visitante\\pim-iii-ads-visitante\\view\\avaliacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{59C2032D-1FC2-4A1F-BB71-4438D626DF5F}|PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj|solutionrelative:pim-iii-ads-visitante\\view\\avaliacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59C2032D-1FC2-4A1F-BB71-4438D626DF5F}|PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj|d:\\paulo \u0026 rebeca\\git-hub-paulo\\pim-iii-ads-visitante\\pim-iii-ads-visitante\\pim-iii-ads-visitante\\service\\avaliacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59C2032D-1FC2-4A1F-BB71-4438D626DF5F}|PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj|C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\Visitante1\\PIM-III-ADS-VISITANTE\\pim-iii-ads-visitante\\service\\avaliacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59C2032D-1FC2-4A1F-BB71-4438D626DF5F}|PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj|solutionrelative:pim-iii-ads-visitante\\service\\avaliacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,11 +22,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Bookmark",
@@ -34,31 +42,44 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Avaliacao.cs [Design]",
-              "DocumentMoniker": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\View\\Avaliacao.cs",
+              "Title": "Avaliacao.cs",
+              "DocumentMoniker": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\Visitante1\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\View\\Avaliacao.cs",
               "RelativeDocumentMoniker": "PIM-III-ADS-VISITANTE\\View\\Avaliacao.cs",
-              "ToolTip": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\View\\Avaliacao.cs [Design]",
-              "RelativeToolTip": "PIM-III-ADS-VISITANTE\\View\\Avaliacao.cs [Design]",
+              "ToolTip": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\Visitante1\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\View\\Avaliacao.cs",
+              "RelativeToolTip": "PIM-III-ADS-VISITANTE\\View\\Avaliacao.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAwwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T13:28:27.664Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-01T20:26:30.979Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Avaliacao.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\Visitante1\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\View\\Avaliacao.cs",
+              "RelativeDocumentMoniker": "PIM-III-ADS-VISITANTE\\View\\Avaliacao.cs",
+              "ToolTip": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\Visitante1\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\View\\Avaliacao.cs [Projeto]",
+              "RelativeToolTip": "PIM-III-ADS-VISITANTE\\View\\Avaliacao.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T20:26:27.593Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AvaliacaoService.cs",
-              "DocumentMoniker": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\Service\\AvaliacaoService.cs",
+              "DocumentMoniker": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\Visitante1\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\Service\\AvaliacaoService.cs",
               "RelativeDocumentMoniker": "PIM-III-ADS-VISITANTE\\Service\\AvaliacaoService.cs",
-              "ToolTip": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\Service\\AvaliacaoService.cs",
+              "ToolTip": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\Visitante1\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\Service\\AvaliacaoService.cs",
               "RelativeToolTip": "PIM-III-ADS-VISITANTE\\Service\\AvaliacaoService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

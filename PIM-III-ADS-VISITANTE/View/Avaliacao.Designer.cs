@@ -46,11 +46,11 @@
             lblPergunta.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             lblPergunta.AutoSize = true;
             lblPergunta.BackColor = Color.Transparent;
-            lblPergunta.Font = new Font("Segoe UI", 25F, FontStyle.Bold, GraphicsUnit.Point);
+            lblPergunta.Font = new Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point);
             lblPergunta.ForeColor = SystemColors.ControlLightLight;
-            lblPergunta.Location = new Point(822, 184);
+            lblPergunta.Location = new Point(862, 356);
             lblPergunta.Name = "lblPergunta";
-            lblPergunta.Size = new Size(181, 46);
+            lblPergunta.Size = new Size(196, 50);
             lblPergunta.TabIndex = 5;
             lblPergunta.Text = "Perguntas";
             lblPergunta.TextAlign = ContentAlignment.MiddleCenter;
@@ -58,16 +58,17 @@
             // btnRuim
             // 
             btnRuim.BackColor = Color.Transparent;
-            btnRuim.BackgroundImageLayout = ImageLayout.None;
+            btnRuim.BackgroundImageLayout = ImageLayout.Center;
             btnRuim.FlatAppearance.BorderSize = 0;
             btnRuim.FlatStyle = FlatStyle.Flat;
-            btnRuim.ImageIndex = 0;
-            btnRuim.ImageList = imageList1;
-            btnRuim.Location = new Point(54, 36);
+            btnRuim.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            btnRuim.ForeColor = Color.Silver;
+            btnRuim.Location = new Point(107, 21);
             btnRuim.Name = "btnRuim";
-            btnRuim.Size = new Size(105, 110);
+            btnRuim.Size = new Size(169, 210);
             btnRuim.TabIndex = 13;
             btnRuim.Text = "Ruim";
+            btnRuim.TextAlign = ContentAlignment.BottomCenter;
             btnRuim.UseVisualStyleBackColor = false;
             btnRuim.Click += btnAvaliacao_Click;
             // 
@@ -93,13 +94,15 @@
             btnRegular.BackgroundImageLayout = ImageLayout.None;
             btnRegular.FlatAppearance.BorderSize = 0;
             btnRegular.FlatStyle = FlatStyle.Flat;
+            btnRegular.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            btnRegular.ForeColor = Color.Silver;
             btnRegular.ImageIndex = 1;
-            btnRegular.ImageList = imageList1;
-            btnRegular.Location = new Point(454, 36);
+            btnRegular.Location = new Point(396, 21);
             btnRegular.Name = "btnRegular";
-            btnRegular.Size = new Size(105, 110);
+            btnRegular.Size = new Size(179, 210);
             btnRegular.TabIndex = 14;
             btnRegular.Text = "Regular";
+            btnRegular.TextAlign = ContentAlignment.BottomCenter;
             btnRegular.UseVisualStyleBackColor = false;
             btnRegular.Click += btnAvaliacao_Click;
             // 
@@ -109,13 +112,15 @@
             btnBom.BackgroundImageLayout = ImageLayout.None;
             btnBom.FlatAppearance.BorderSize = 0;
             btnBom.FlatStyle = FlatStyle.Flat;
+            btnBom.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            btnBom.ForeColor = Color.Silver;
             btnBom.ImageIndex = 2;
-            btnBom.ImageList = imageList1;
-            btnBom.Location = new Point(854, 36);
+            btnBom.Location = new Point(699, 21);
             btnBom.Name = "btnBom";
-            btnBom.Size = new Size(105, 110);
+            btnBom.Size = new Size(184, 210);
             btnBom.TabIndex = 15;
             btnBom.Text = "Bom";
+            btnBom.TextAlign = ContentAlignment.BottomCenter;
             btnBom.UseVisualStyleBackColor = false;
             btnBom.Click += btnAvaliacao_Click;
             // 
@@ -125,13 +130,15 @@
             btnOtimo.BackgroundImageLayout = ImageLayout.None;
             btnOtimo.FlatAppearance.BorderSize = 0;
             btnOtimo.FlatStyle = FlatStyle.Flat;
+            btnOtimo.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            btnOtimo.ForeColor = Color.Silver;
             btnOtimo.ImageIndex = 3;
-            btnOtimo.ImageList = imageList1;
-            btnOtimo.Location = new Point(1254, 36);
+            btnOtimo.Location = new Point(988, 21);
             btnOtimo.Name = "btnOtimo";
-            btnOtimo.Size = new Size(105, 110);
+            btnOtimo.Size = new Size(179, 210);
             btnOtimo.TabIndex = 16;
-            btnOtimo.Text = "Otimo";
+            btnOtimo.Text = "Ótimo";
+            btnOtimo.TextAlign = ContentAlignment.BottomCenter;
             btnOtimo.UseVisualStyleBackColor = false;
             btnOtimo.Click += btnAvaliacao_Click;
             // 
@@ -141,13 +148,15 @@
             btnExcelente.BackgroundImageLayout = ImageLayout.None;
             btnExcelente.FlatAppearance.BorderSize = 0;
             btnExcelente.FlatStyle = FlatStyle.Flat;
+            btnExcelente.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            btnExcelente.ForeColor = Color.Silver;
             btnExcelente.ImageIndex = 4;
-            btnExcelente.ImageList = imageList1;
-            btnExcelente.Location = new Point(1654, 36);
+            btnExcelente.Location = new Point(1291, 3);
             btnExcelente.Name = "btnExcelente";
-            btnExcelente.Size = new Size(105, 110);
+            btnExcelente.Size = new Size(176, 228);
             btnExcelente.TabIndex = 17;
             btnExcelente.Text = "Excelente";
+            btnExcelente.TextAlign = ContentAlignment.BottomCenter;
             btnExcelente.UseVisualStyleBackColor = false;
             btnExcelente.Click += btnAvaliacao_Click;
             // 
@@ -157,13 +166,13 @@
             pnlAvaliacao.BackColor = Color.Transparent;
             pnlAvaliacao.Controls.Add(btnExcelente);
             pnlAvaliacao.Controls.Add(btnOtimo);
-            pnlAvaliacao.Controls.Add(btnBom);
             pnlAvaliacao.Controls.Add(btnRegular);
+            pnlAvaliacao.Controls.Add(btnBom);
             pnlAvaliacao.Controls.Add(btnRuim);
             pnlAvaliacao.ForeColor = Color.Transparent;
-            pnlAvaliacao.Location = new Point(6, 555);
+            pnlAvaliacao.Location = new Point(173, 513);
             pnlAvaliacao.Name = "pnlAvaliacao";
-            pnlAvaliacao.Size = new Size(1815, 212);
+            pnlAvaliacao.Size = new Size(1574, 231);
             pnlAvaliacao.TabIndex = 18;
             // 
             // Avaliacao
@@ -171,15 +180,16 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
-            BackgroundImage = PIM_III_ADS_VISITANTE.Properties.Resources.Blue_Stars_and_Moon_Galaxy_Zoom_Virtual_Background_02;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1825, 875);
+            ClientSize = new Size(1920, 1100);
             Controls.Add(pnlAvaliacao);
             Controls.Add(lblPergunta);
             DoubleBuffered = true;
             Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             FormBorderStyle = FormBorderStyle.None;
             Name = "Avaliacao";
+            RightToLeft = RightToLeft.Yes;
             Text = "Pergunta01";
             pnlAvaliacao.ResumeLayout(false);
             ResumeLayout(false);
