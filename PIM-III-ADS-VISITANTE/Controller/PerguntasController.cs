@@ -1,4 +1,6 @@
 ﻿using PIM_III_ADS_VISITANTE.View;
+using System.Media;
+using System.Numerics;
 using WinFormsTimer = System.Windows.Forms.Timer;
 
 namespace PIM_III_ADS_VISITANTE.Controller
@@ -7,6 +9,7 @@ namespace PIM_III_ADS_VISITANTE.Controller
     {
         private Obrigado obrigado;
         private WinFormsTimer timer;
+        //private SoundPlayer player;
         private Panel pnlAvaliacao;
         private int indicePergunta = 0;
         private string[] perguntas = {
@@ -43,6 +46,10 @@ namespace PIM_III_ADS_VISITANTE.Controller
                 timer.Start();
 
                 obrigado.Show();
+                //player = new SoundPlayer();
+                //player.SoundLocation = @"C:\Users\kenzo\Music\yeeg.wav";
+                //player.Play();
+
 
                 return "";
             }
