@@ -37,7 +37,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(704, 681);
+            ClientSize = new Size(1920, 1100);
             DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.None;
             Name = "Obrigado";

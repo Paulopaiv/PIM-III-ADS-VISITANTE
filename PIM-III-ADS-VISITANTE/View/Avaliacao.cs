@@ -26,8 +26,8 @@ namespace PIM_III.View
         {
             lblPergunta.Text = perguntasControle.PerguntaAtual();
             lblPergunta.MaximumSize = new Size(1200, 0);
-            lblPergunta.TextAlign = ContentAlignment.MiddleCenter;  
-            int topPosition = (int)(7 * CreateGraphics().DpiY / 2.54);
+            lblPergunta.TextAlign = ContentAlignment.MiddleCenter;
+            int topPosition = (int)(15 * CreateGraphics().DpiY / 4);
             int leftPosition = (this.ClientSize.Width - lblPergunta.Width) / 2;
             lblPergunta.Location = new Point(leftPosition, topPosition);
         }
