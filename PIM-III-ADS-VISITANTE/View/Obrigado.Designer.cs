@@ -38,8 +38,10 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1920, 1100);
+            Cursor = Cursors.No;
             DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Obrigado";
             Text = "Obrigado";
             ResumeLayout(false);

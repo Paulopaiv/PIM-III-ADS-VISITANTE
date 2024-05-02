@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginVisitante));
             txbCodigoVisitante = new TextBox();
             BtnEntrar = new Button();
             lblNome = new Label();
@@ -40,9 +41,9 @@
             txbCodigoVisitante.Anchor = AnchorStyles.Right;
             txbCodigoVisitante.BorderStyle = BorderStyle.FixedSingle;
             txbCodigoVisitante.ForeColor = SystemColors.ActiveCaptionText;
-            txbCodigoVisitante.Location = new Point(84, 35);
+            txbCodigoVisitante.Location = new Point(59, 35);
             txbCodigoVisitante.Name = "txbCodigoVisitante";
-            txbCodigoVisitante.Size = new Size(273, 23);
+            txbCodigoVisitante.Size = new Size(306, 23);
             txbCodigoVisitante.TabIndex = 2;
             txbCodigoVisitante.Click += TextBox1_Click;
             // 
@@ -53,7 +54,7 @@
             BtnEntrar.Cursor = Cursors.Hand;
             BtnEntrar.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             BtnEntrar.ForeColor = Color.Black;
-            BtnEntrar.Location = new Point(141, 72);
+            BtnEntrar.Location = new Point(146, 64);
             BtnEntrar.Name = "BtnEntrar";
             BtnEntrar.Size = new Size(160, 42);
             BtnEntrar.TabIndex = 3;
@@ -68,7 +69,7 @@
             lblNome.BackColor = Color.Transparent;
             lblNome.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             lblNome.ForeColor = SystemColors.ControlLightLight;
-            lblNome.Location = new Point(84, 7);
+            lblNome.Location = new Point(59, 7);
             lblNome.Name = "lblNome";
             lblNome.Size = new Size(148, 25);
             lblNome.TabIndex = 14;
@@ -95,8 +96,10 @@
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1920, 1100);
             Controls.Add(panel1);
+            Cursor = Cursors.No;
             DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "LoginVisitante";
             Text = "LoginVisitante";
             panel1.ResumeLayout(false);

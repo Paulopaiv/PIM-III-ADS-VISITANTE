@@ -46,6 +46,7 @@
             lblPergunta.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             lblPergunta.AutoSize = true;
             lblPergunta.BackColor = Color.Transparent;
+            lblPergunta.Cursor = Cursors.No;
             lblPergunta.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
             lblPergunta.ForeColor = SystemColors.ControlLightLight;
             lblPergunta.Location = new Point(438, 362);
@@ -186,6 +187,7 @@
             pnlAvaliacao.Controls.Add(btnRegular);
             pnlAvaliacao.Controls.Add(btnBom);
             pnlAvaliacao.Controls.Add(btnRuim);
+            pnlAvaliacao.Cursor = Cursors.Hand;
             pnlAvaliacao.ForeColor = Color.Transparent;
             pnlAvaliacao.Location = new Point(173, 513);
             pnlAvaliacao.Name = "pnlAvaliacao";
@@ -204,6 +206,7 @@
             DoubleBuffered = true;
             Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Avaliacao";
             RightToLeft = RightToLeft.Yes;
             StartPosition = FormStartPosition.CenterScreen;
