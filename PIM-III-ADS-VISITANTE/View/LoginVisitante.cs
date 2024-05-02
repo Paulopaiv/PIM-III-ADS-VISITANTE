@@ -2,7 +2,6 @@
 using PIM_III_ADS_VISITANTE.Controller;
 using PIM_III_ADS_VISITANTE.Model;
 using TesteTecladoCerto;
-using static PIM_III_ADS_VISITANTE.Controller.AvaliacaoModel;
 
 namespace PIM_III.View
 {

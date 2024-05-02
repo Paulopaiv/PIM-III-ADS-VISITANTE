@@ -43,16 +43,18 @@
             // 
             // lblPergunta
             // 
-            lblPergunta.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            lblPergunta.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             lblPergunta.AutoSize = true;
             lblPergunta.BackColor = Color.Transparent;
-            lblPergunta.Font = new Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point);
+            lblPergunta.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
             lblPergunta.ForeColor = SystemColors.ControlLightLight;
-            lblPergunta.Location = new Point(862, 356);
+            lblPergunta.Location = new Point(438, 362);
+            lblPergunta.Margin = new Padding(0);
             lblPergunta.Name = "lblPergunta";
-            lblPergunta.Size = new Size(196, 50);
+            lblPergunta.RightToLeft = RightToLeft.No;
+            lblPergunta.Size = new Size(1043, 32);
             lblPergunta.TabIndex = 5;
-            lblPergunta.Text = "Perguntas";
+            lblPergunta.Text = "Como você avaliaria a clareza das instruções fornecidas para interagir com as exposições?";
             lblPergunta.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // btnRuim
@@ -60,6 +62,9 @@
             btnRuim.BackColor = Color.Transparent;
             btnRuim.BackgroundImageLayout = ImageLayout.Center;
             btnRuim.FlatAppearance.BorderSize = 0;
+            btnRuim.FlatAppearance.CheckedBackColor = Color.Transparent;
+            btnRuim.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnRuim.FlatAppearance.MouseOverBackColor = Color.Transparent;
             btnRuim.FlatStyle = FlatStyle.Flat;
             btnRuim.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             btnRuim.ForeColor = Color.Silver;
@@ -93,6 +98,9 @@
             btnRegular.BackColor = Color.Transparent;
             btnRegular.BackgroundImageLayout = ImageLayout.None;
             btnRegular.FlatAppearance.BorderSize = 0;
+            btnRegular.FlatAppearance.CheckedBackColor = Color.Transparent;
+            btnRegular.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnRegular.FlatAppearance.MouseOverBackColor = Color.Transparent;
             btnRegular.FlatStyle = FlatStyle.Flat;
             btnRegular.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             btnRegular.ForeColor = Color.Silver;
@@ -111,6 +119,9 @@
             btnBom.BackColor = Color.Transparent;
             btnBom.BackgroundImageLayout = ImageLayout.None;
             btnBom.FlatAppearance.BorderSize = 0;
+            btnBom.FlatAppearance.CheckedBackColor = Color.Transparent;
+            btnBom.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnBom.FlatAppearance.MouseOverBackColor = Color.Transparent;
             btnBom.FlatStyle = FlatStyle.Flat;
             btnBom.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             btnBom.ForeColor = Color.Silver;
@@ -129,6 +140,9 @@
             btnOtimo.BackColor = Color.Transparent;
             btnOtimo.BackgroundImageLayout = ImageLayout.None;
             btnOtimo.FlatAppearance.BorderSize = 0;
+            btnOtimo.FlatAppearance.CheckedBackColor = Color.Transparent;
+            btnOtimo.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnOtimo.FlatAppearance.MouseOverBackColor = Color.Transparent;
             btnOtimo.FlatStyle = FlatStyle.Flat;
             btnOtimo.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             btnOtimo.ForeColor = Color.Silver;
@@ -147,6 +161,9 @@
             btnExcelente.BackColor = Color.Transparent;
             btnExcelente.BackgroundImageLayout = ImageLayout.None;
             btnExcelente.FlatAppearance.BorderSize = 0;
+            btnExcelente.FlatAppearance.CheckedBackColor = Color.Transparent;
+            btnExcelente.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnExcelente.FlatAppearance.MouseOverBackColor = Color.Transparent;
             btnExcelente.FlatStyle = FlatStyle.Flat;
             btnExcelente.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             btnExcelente.ForeColor = Color.Silver;
@@ -177,8 +194,7 @@
             // 
             // Avaliacao
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleMode = AutoScaleMode.None;
             BackColor = Color.Black;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
@@ -190,6 +206,7 @@
             FormBorderStyle = FormBorderStyle.None;
             Name = "Avaliacao";
             RightToLeft = RightToLeft.Yes;
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Pergunta01";
             pnlAvaliacao.ResumeLayout(false);
             ResumeLayout(false);
