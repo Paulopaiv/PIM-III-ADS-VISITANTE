@@ -2,7 +2,7 @@
 using System;
 using System.Data;
 
-namespace PIM_III_ADS_2P17.Servico
+namespace PIM_III_ADS_2P17.Service
 {
     public class Dbconexao : IDisposable
     {

@@ -1,6 +1,5 @@
-﻿using Teclado_virtual;
-
-namespace TesteTecladoCerto
+﻿
+namespace PIM_III_ADS_VISITANTE.View
 {
     public partial class Teclado : Form
     {

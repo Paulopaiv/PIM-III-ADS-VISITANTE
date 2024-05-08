@@ -1,8 +1,9 @@
 ﻿
 using PIM_III_ADS_VISITANTE.Controller;
 using PIM_III_ADS_VISITANTE.Model;
-using TesteTecladoCerto;
-using static PIM_III_ADS_VISITANTE.Controller.AvaliacaoModel;
+using PIM_III_ADS_VISITANTE.View;
+
+
 
 namespace PIM_III.View
 {
@@ -21,6 +22,7 @@ namespace PIM_III.View
             pessoaModel = new PessoaModel();
         }
 
+       
         private void TextBox1_Click(object sender, EventArgs e)
         {
             // Verifica se o teclado ainda não foi instanciado

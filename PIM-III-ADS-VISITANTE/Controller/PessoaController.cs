@@ -33,5 +33,21 @@
                 codigo = value;
             }
         }
+
+        public Model.PessoaModel PessoaModel
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public PIM_III.View.LoginVisitante LoginVisitante
+        {
+            get => default;
+            set
+            {
+            }
+        }
     }
 }

@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{59C2032D-1FC2-4A1F-BB71-4438D626DF5F}|PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj|d:\\paulo \u0026 rebeca\\git-hub-paulo\\pim-iii-ads-visitante\\pim-iii-ads-visitante\\pim-iii-ads-visitante\\view\\avaliacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{59C2032D-1FC2-4A1F-BB71-4438D626DF5F}|PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj|solutionrelative:pim-iii-ads-visitante\\view\\avaliacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{59C2032D-1FC2-4A1F-BB71-4438D626DF5F}|PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj|D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\pim-iii-ads-visitante\\model\\mediaavaliacaomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59C2032D-1FC2-4A1F-BB71-4438D626DF5F}|PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj|solutionrelative:pim-iii-ads-visitante\\model\\mediaavaliacaomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59C2032D-1FC2-4A1F-BB71-4438D626DF5F}|PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj|d:\\paulo \u0026 rebeca\\git-hub-paulo\\pim-iii-ads-visitante\\pim-iii-ads-visitante\\pim-iii-ads-visitante\\service\\avaliacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59C2032D-1FC2-4A1F-BB71-4438D626DF5F}|PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj|solutionrelative:pim-iii-ads-visitante\\service\\avaliacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59C2032D-1FC2-4A1F-BB71-4438D626DF5F}|PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj|D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\pim-iii-ads-visitante\\controller\\perguntascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59C2032D-1FC2-4A1F-BB71-4438D626DF5F}|PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj|solutionrelative:pim-iii-ads-visitante\\controller\\perguntascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,14 +47,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Avaliacao.cs [Design]",
-              "DocumentMoniker": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\View\\Avaliacao.cs",
-              "RelativeDocumentMoniker": "PIM-III-ADS-VISITANTE\\View\\Avaliacao.cs",
-              "ToolTip": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\View\\Avaliacao.cs [Design]",
-              "RelativeToolTip": "PIM-III-ADS-VISITANTE\\View\\Avaliacao.cs [Design]",
+              "Title": "MediaAvaliacaoModel.cs",
+              "DocumentMoniker": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\Model\\MediaAvaliacaoModel.cs",
+              "RelativeDocumentMoniker": "PIM-III-ADS-VISITANTE\\Model\\MediaAvaliacaoModel.cs",
+              "ToolTip": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\Model\\MediaAvaliacaoModel.cs",
+              "RelativeToolTip": "PIM-III-ADS-VISITANTE\\Model\\MediaAvaliacaoModel.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAuwCEAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T13:28:27.664Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-07T20:26:35.128Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -60,9 +65,22 @@
               "RelativeDocumentMoniker": "PIM-III-ADS-VISITANTE\\Service\\AvaliacaoService.cs",
               "ToolTip": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\Service\\AvaliacaoService.cs",
               "RelativeToolTip": "PIM-III-ADS-VISITANTE\\Service\\AvaliacaoService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAFAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAwDoAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T12:22:28.566Z",
+              "WhenOpened": "2024-05-07T20:06:17.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PerguntasController.cs",
+              "DocumentMoniker": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\Controller\\PerguntasController.cs",
+              "RelativeDocumentMoniker": "PIM-III-ADS-VISITANTE\\Controller\\PerguntasController.cs",
+              "ToolTip": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\Controller\\PerguntasController.cs",
+              "RelativeToolTip": "PIM-III-ADS-VISITANTE\\Controller\\PerguntasController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T20:05:05.887Z",
               "EditorCaption": ""
             }
           ]

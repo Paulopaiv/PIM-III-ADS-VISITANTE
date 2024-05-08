@@ -1,7 +1,9 @@
-﻿using PIM_III_ADS_2P17_AVALIACAO.Servico;
-using PIM_III_ADS_VISITANTE.Model;
+﻿
+using PIM_III_ADS_2P17_AVALIACAO.Service;
+using PIM_III_ADS_VISITANTE.Controller;
 
-namespace PIM_III_ADS_VISITANTE.Controller
+
+namespace PIM_III_ADS_VISITANTE.Model
 {
     public class AvaliacaoModel
     {
@@ -16,6 +18,8 @@ namespace PIM_III_ADS_VISITANTE.Controller
             this.perguntas = perguntas;
             this.pessoa = pessoa;
         }
+
+       
 
         internal void SalvarVoto()
         {

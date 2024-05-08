@@ -1,4 +1,4 @@
-﻿namespace PIM_III.View
+﻿namespace PIM_III_ADS_VISITANTE.View
 {
     partial class Avaliacao
     {
@@ -60,6 +60,8 @@
             btnRuim.BackColor = Color.Transparent;
             btnRuim.BackgroundImageLayout = ImageLayout.None;
             btnRuim.FlatAppearance.BorderSize = 0;
+            btnRuim.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnRuim.FlatAppearance.MouseOverBackColor = Color.Transparent;
             btnRuim.FlatStyle = FlatStyle.Flat;
             btnRuim.ImageIndex = 0;
             btnRuim.ImageList = imageList1;
@@ -92,6 +94,8 @@
             btnRegular.BackColor = Color.Transparent;
             btnRegular.BackgroundImageLayout = ImageLayout.None;
             btnRegular.FlatAppearance.BorderSize = 0;
+            btnRegular.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnRegular.FlatAppearance.MouseOverBackColor = Color.Transparent;
             btnRegular.FlatStyle = FlatStyle.Flat;
             btnRegular.ImageIndex = 1;
             btnRegular.ImageList = imageList1;
@@ -108,6 +112,8 @@
             btnBom.BackColor = Color.Transparent;
             btnBom.BackgroundImageLayout = ImageLayout.None;
             btnBom.FlatAppearance.BorderSize = 0;
+            btnBom.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnBom.FlatAppearance.MouseOverBackColor = Color.Transparent;
             btnBom.FlatStyle = FlatStyle.Flat;
             btnBom.ImageIndex = 2;
             btnBom.ImageList = imageList1;
@@ -124,6 +130,8 @@
             btnOtimo.BackColor = Color.Transparent;
             btnOtimo.BackgroundImageLayout = ImageLayout.None;
             btnOtimo.FlatAppearance.BorderSize = 0;
+            btnOtimo.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnOtimo.FlatAppearance.MouseOverBackColor = Color.Transparent;
             btnOtimo.FlatStyle = FlatStyle.Flat;
             btnOtimo.ImageIndex = 3;
             btnOtimo.ImageList = imageList1;
@@ -140,6 +148,8 @@
             btnExcelente.BackColor = Color.Transparent;
             btnExcelente.BackgroundImageLayout = ImageLayout.None;
             btnExcelente.FlatAppearance.BorderSize = 0;
+            btnExcelente.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnExcelente.FlatAppearance.MouseOverBackColor = Color.Transparent;
             btnExcelente.FlatStyle = FlatStyle.Flat;
             btnExcelente.ImageIndex = 4;
             btnExcelente.ImageList = imageList1;
@@ -157,9 +167,9 @@
             pnlAvaliacao.BackColor = Color.Transparent;
             pnlAvaliacao.Controls.Add(btnExcelente);
             pnlAvaliacao.Controls.Add(btnOtimo);
-            pnlAvaliacao.Controls.Add(btnBom);
             pnlAvaliacao.Controls.Add(btnRegular);
             pnlAvaliacao.Controls.Add(btnRuim);
+            pnlAvaliacao.Controls.Add(btnBom);
             pnlAvaliacao.ForeColor = Color.Transparent;
             pnlAvaliacao.Location = new Point(6, 555);
             pnlAvaliacao.Name = "pnlAvaliacao";
@@ -180,7 +190,7 @@
             Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             FormBorderStyle = FormBorderStyle.None;
             Name = "Avaliacao";
-            Text = "Pergunta01";
+            Text = " ";
             pnlAvaliacao.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();

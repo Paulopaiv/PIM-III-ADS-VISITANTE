@@ -112,6 +112,14 @@ namespace PIM_III_ADS_VISITANTE.Model
                 ruim = value;
             }
         }
+
+        public AvaliacaoModel AvaliacaoModel
+        {
+            get => default;
+            set
+            {
+            }
+        }
     }
 }
 

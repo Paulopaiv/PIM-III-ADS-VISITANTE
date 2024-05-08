@@ -1,18 +1,90 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="PIM_III.View.LoginVisitante">
-    <Position X="1.5" Y="2" Width="1.5" />
+    <Position X="13.5" Y="4" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAACQCACAEAAIADAAEACAAAAAAAQAAQAAQDAAAA=</HashCode>
+      <HashCode>AAAAAAACQCACAEAAIADAAEBCAAAAAAAQAAQAAwDAAAA=</HashCode>
       <FileName>View\LoginVisitante.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PessoaController" />
+      <Property Name="Avaliacao" />
+    </ShowAsAssociation>
   </Class>
-  <Class Name="PIM_III.View.Avaliacao">
-    <Position X="6" Y="1.75" Width="1.5" />
+  <Class Name="PIM_III_ADS_VISITANTE.Controller.PessoaController">
+    <Position X="16.75" Y="5.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>oBBAkAAAACggAAAQAACAAAAGAAAAAYAABAAAIACBAMA=</HashCode>
+      <HashCode>AQABAAABAQAAAAAAAAAAAAAAQAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Controller\PessoaController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PessoaModel" />
+      <Property Name="LoginVisitante" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PIM_III_ADS_VISITANTE.Model.PessoaModel">
+    <Position X="19.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAEAAAABAAAAAgAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Model\PessoaModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PessoaServico" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PIM_III_ADS_2P17.Service.PessoaServico">
+    <Position X="22.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Service\PessoaService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PIM_III_ADS_VISITANTE.Model.AvaliacaoController">
+    <Position X="6.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAQAAAAAAAAAAAEgAAEDIgABAgAAABAAAAAAA=</HashCode>
+      <FileName>Controller\AvaliacaoController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AvaliacaoModel" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PIM_III_ADS_VISITANTE.View.Avaliacao">
+    <Position X="10" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>oBBAkAAAACggEAAQAACAAAAGAAAAAYAABAAAIACBAMA=</HashCode>
       <FileName>View\Avaliacao.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AvaliacaoController" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PIM_III_ADS_VISITANTE.Model.AvaliacaoModel">
+    <Position X="3.75" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAERCBAAAAAAACAAAA=</HashCode>
+      <FileName>Model\AvaliacaoModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AvaliacaoService" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PIM_III_ADS_2P17_AVALIACAO.Service.AvaliacaoService">
+    <Position X="0.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Service\AvaliacaoService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PIM_III_ADS_VISITANTE.View.Obrigado">
+    <Position X="6.75" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAABCAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\Obrigado.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Avaliacao" />
+    </ShowAsAssociation>
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

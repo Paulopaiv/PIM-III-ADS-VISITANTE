@@ -2,7 +2,7 @@
 using PIM_III_ADS_VISITANTE.Model;
 
 
-namespace PIM_III.View
+namespace PIM_III_ADS_VISITANTE.View
 {
     public partial class Avaliacao : Form
     {
@@ -22,11 +22,12 @@ namespace PIM_III.View
             AtualizarPergunta();
         }
 
+       
         private void AtualizarPergunta()
         {
             lblPergunta.Text = perguntasControle.PerguntaAtual();
             lblPergunta.MaximumSize = new Size(1200, 0);
-            lblPergunta.TextAlign = ContentAlignment.MiddleCenter;  
+            lblPergunta.TextAlign = ContentAlignment.MiddleCenter;
             int topPosition = (int)(7 * CreateGraphics().DpiY / 2.54);
             int leftPosition = (this.ClientSize.Width - lblPergunta.Width) / 2;
             lblPergunta.Location = new Point(leftPosition, topPosition);

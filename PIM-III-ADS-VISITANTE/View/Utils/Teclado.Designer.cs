@@ -1,4 +1,4 @@
-﻿namespace TesteTecladoCerto
+﻿namespace PIM_III_ADS_VISITANTE.View
 {
     partial class Teclado
     {

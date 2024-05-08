@@ -1,4 +1,6 @@
-﻿using PIM_III_ADS_VISITANTE.View;
+﻿using PIM_III_ADS_VISITANTE.Model;
+
+using PIM_III_ADS_VISITANTE.View;
 using WinFormsTimer = System.Windows.Forms.Timer;
 
 namespace PIM_III_ADS_VISITANTE.Controller
@@ -21,14 +23,11 @@ namespace PIM_III_ADS_VISITANTE.Controller
 
         public PerguntasController(Panel pnlAvaliacao)
         {
-
-            this.pnlAvaliacao = pnlAvaliacao; // Armazene a referência ao GroupBox
-
+            this.pnlAvaliacao = pnlAvaliacao; 
             obrigado = new Obrigado();
-            // Inicialize o temporizador
             timer = new WinFormsTimer();
-            timer.Interval = 4000; // Defina o intervalo do temporizador para 2 segundos
-            timer.Tick += Timer_Tick; // Adicione um manipulador de eventos para o evento Tick do temporizador
+            timer.Interval = 2000;
+            timer.Tick += Timer_Tick; 
         }
 
         public string PerguntaAtual()
@@ -52,6 +51,21 @@ namespace PIM_III_ADS_VISITANTE.Controller
         {
 
             timer.Stop();
+
+
+
+
+
+
+            // Dentro de algum lugar onde você quer exibir os resultados
+            MediaAvaliacaoModel mediaAvaliacaoModel = new MediaAvaliacaoModel();
+            mediaAvaliacaoModel.ExibirMediaAvaliacoes();
+
+
+
+
+
+
 
 
             ((Form)pnlAvaliacao.Parent).Close();

@@ -1,4 +1,5 @@
-﻿using PIM_III_ADS_2P17.Servico;
+﻿using PIM_III_ADS_2P17.Service;
+
 using PIM_III_ADS_VISITANTE.Controller;
 
 namespace PIM_III_ADS_VISITANTE.Model
@@ -33,6 +34,12 @@ namespace PIM_III_ADS_VISITANTE.Model
             get { return mensagem; }
         }
 
-      
+        public PIM_III_ADS_2P17.Service.PessoaServico PessoaServico
+        {
+            get => default;
+            set
+            {
+            }
+        }
     }
 }

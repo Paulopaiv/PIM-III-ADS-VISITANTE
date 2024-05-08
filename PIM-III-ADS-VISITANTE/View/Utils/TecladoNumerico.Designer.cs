@@ -1,4 +1,4 @@
-﻿namespace Teclado_virtual
+﻿namespace PIM_III_ADS_VISITANTE.View
 {
     partial class TecladoNumerico
     {

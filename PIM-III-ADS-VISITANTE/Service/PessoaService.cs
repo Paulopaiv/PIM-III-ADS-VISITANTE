@@ -3,7 +3,7 @@ using System;
 using Dapper;
 using PIM_III_ADS_VISITANTE.Controller;
 
-namespace PIM_III_ADS_2P17.Servico
+namespace PIM_III_ADS_2P17.Service
 {
     public class PessoaServico
     {
