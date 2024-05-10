@@ -1,0 +1,6 @@
+D:\Paulo & Rebeca\GIT-HUB-PAULO\PIM-III-ADS-VISITANTE\PIM-III-ADS-VISITANTE\VisitanteTeste\obj\Debug\net7.0\VisitanteTeste.csproj.AssemblyReference.cache
+D:\Paulo & Rebeca\GIT-HUB-PAULO\PIM-III-ADS-VISITANTE\PIM-III-ADS-VISITANTE\VisitanteTeste\obj\Debug\net7.0\VisitanteTeste.GeneratedMSBuildEditorConfig.editorconfig
+D:\Paulo & Rebeca\GIT-HUB-PAULO\PIM-III-ADS-VISITANTE\PIM-III-ADS-VISITANTE\VisitanteTeste\obj\Debug\net7.0\VisitanteTeste.AssemblyInfoInputs.cache
+D:\Paulo & Rebeca\GIT-HUB-PAULO\PIM-III-ADS-VISITANTE\PIM-III-ADS-VISITANTE\VisitanteTeste\obj\Debug\net7.0\VisitanteTeste.AssemblyInfo.cs
+D:\Paulo & Rebeca\GIT-HUB-PAULO\PIM-III-ADS-VISITANTE\PIM-III-ADS-VISITANTE\VisitanteTeste\obj\Debug\net7.0\VisitanteTeste.csproj.CoreCompileInputs.cache
+D:\Paulo & Rebeca\GIT-HUB-PAULO\PIM-III-ADS-VISITANTE\PIM-III-ADS-VISITANTE\VisitanteTeste\obj\Debug\net7.0\VisitanteTeste.sourcelink.json
