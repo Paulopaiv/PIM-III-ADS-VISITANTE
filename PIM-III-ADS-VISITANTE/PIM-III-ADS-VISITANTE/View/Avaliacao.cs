@@ -1,6 +1,6 @@
 ﻿using PIM_III_ADS_VISITANTE.Controller;
 using PIM_III_ADS_VISITANTE.Model;
-
+using WinFormsTimer = System.Windows.Forms.Timer;
 
 namespace PIM_III_ADS_VISITANTE.View
 {
@@ -10,7 +10,8 @@ namespace PIM_III_ADS_VISITANTE.View
         public PerguntasController perguntasControle;
         public AvaliacaoModel avaliacaoModel;
         public PessoaController pessoa;
-
+        private WinFormsTimer timer;
+      
         public Avaliacao(PessoaController pessoa)
         {
             InitializeComponent();
@@ -19,6 +20,12 @@ namespace PIM_III_ADS_VISITANTE.View
             avaliacaoControle = new AvaliacaoController();
             perguntasControle = new PerguntasController(pnlAvaliacao);
             avaliacaoModel = new AvaliacaoModel(pessoa, avaliacaoControle, perguntasControle);
+
+            timer = new WinFormsTimer();
+            timer.Interval = 60000;
+            timer.Tick += Timer_Tick;
+
+            timer.Start();
             AtualizarPergunta();
         }
 
@@ -67,5 +74,11 @@ namespace PIM_III_ADS_VISITANTE.View
             avaliacaoModel.SalvarVoto();
             AtualizarPergunta();
         }
+        private void Timer_Tick(object sender, EventArgs e)
+        {
+            this.Close();
+            timer.Stop();
+        }
+
     }
 }

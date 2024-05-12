@@ -22,7 +22,7 @@ namespace PIM_III_ADS_VISITANTE.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace PIM_III_ADS_VISITANTE.Properties {
         ///   Retorna a instância de ResourceManager armazenada em cache usada por essa classe.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("PIM_III_ADS_VISITANTE.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace PIM_III_ADS_VISITANTE.Properties {
         ///   pesquisas de recursos que usam essa classe de recurso de tipo de alta segurança.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,9 +63,9 @@ namespace PIM_III_ADS_VISITANTE.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _Black_And_Grey_Illustration_Did_You_Know_Instagram_Post {
+        public static System.Drawing.Bitmap cincoestrelas {
             get {
-                object obj = ResourceManager.GetObject("_Black And Grey Illustration Did You Know Instagram Post", resourceCulture);
+                object obj = ResourceManager.GetObject("cincoestrelas", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace PIM_III_ADS_VISITANTE.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Blue_Stars_and_Moon_Galaxy_Zoom_Virtual_Background_02 {
+        public static System.Drawing.Bitmap duasestrelas {
             get {
-                object obj = ResourceManager.GetObject("Blue Stars and Moon Galaxy Zoom Virtual Background 02", resourceCulture);
+                object obj = ResourceManager.GetObject("duasestrelas", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,49 @@ namespace PIM_III_ADS_VISITANTE.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap telaLoginmain {
+        public static System.Drawing.Bitmap quatroestrelas {
+            get {
+                object obj = ResourceManager.GetObject("quatroestrelas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap telaLoginmain {
             get {
                 object obj = ResourceManager.GetObject("telaLoginmain", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap tresestrelas {
+            get {
+                object obj = ResourceManager.GetObject("tresestrelas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap umaestrela {
+            get {
+                object obj = ResourceManager.GetObject("umaestrela", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap zeroestrelas {
+            get {
+                object obj = ResourceManager.GetObject("zeroestrelas", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
