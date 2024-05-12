@@ -11,6 +11,7 @@ namespace PIM_III_ADS_VISITANTE.View
         public PessoaController pessoa;
         public Teclado teclado;
 
+
         public LoginVisitante()
         {
             InitializeComponent();
@@ -18,6 +19,8 @@ namespace PIM_III_ADS_VISITANTE.View
             this.WindowState = FormWindowState.Maximized;
             pessoa = new PessoaController();
             pessoaModel = new PessoaModel();
+
+          
         }
 
         public void TextBox1_Click(object sender, EventArgs e)
@@ -43,7 +46,6 @@ namespace PIM_III_ADS_VISITANTE.View
 
             if (pessoaModel.Mensagem.Equals(""))
             {
-                MessageBox.Show(pessoaModel.Mensagem);
                 Avaliacao avaliacao = new Avaliacao(pessoa);
                 avaliacao.ShowDialog();
             }
@@ -58,6 +60,7 @@ namespace PIM_III_ADS_VISITANTE.View
         {
             txbCodigoVisitante.Text = string.Empty;
         }
-
+        
+            
     }
 }

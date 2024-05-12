@@ -23,12 +23,12 @@ namespace PIM_III_ADS_VISITANTE.Service
                 command.Parameters.AddWithValue("@Voto", avaliacao);
                 command.Parameters.AddWithValue("@Data", DateTime.Now);
 
-                //int linhasAfetadas = command.ExecuteNonQuery();
+                int linhasAfetadas = command.ExecuteNonQuery();
 
-                //if (linhasAfetadas < 0)
-                //{
-                //    MessageBox.Show("Falha ao registrar o voto.");
-                //}
+                if (linhasAfetadas < 0)
+                {
+                    MessageBox.Show("Falha ao registrar o voto.");
+                }
             }
         }
 
