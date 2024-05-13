@@ -1,11 +1,13 @@
 # Programa de Avaliação do Museu 🌕
 
 Este programa faz parte do projeto do Museu da Primeira Viagem à Lua e tem como objetivo coletar feedback dos visitantes sobre a exposição. Através deste programa, os visitantes podem participar de uma pesquisa que visa melhorar a experiência no museu.
-Abaixo terão os links dos outros 2 repositórios que fazem parte desse projeto:
+Para realizar esse projeto, foi necessário a criação de 4 programas que iriam fazer a interação da experiência com o usuário com o museu. Segue abaixo o repositório dos outros 3 programas:
 
 -[Programa Principal 🏛️](https://github.com/Paulopaiv/PIM-III-QUESTIONARIO)
 
--[Programa de administração](https://github.com/Paulopaiv/PIM-III-ADS-ADM)
+-[Programa de Administração 📋 ](https://github.com/Paulopaiv/PIM-III-ADS-ADM) 
+
+-[Programa de Vendas 🛒 ](https://github.com/Paulopaiv/PIM-III-ADS-VENDAS) 
 
 ## Funcionalidades Principais ⚙️
 
