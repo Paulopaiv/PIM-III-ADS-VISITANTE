@@ -16,7 +16,7 @@ namespace PIM_III_ADS_VISITANTE.View
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
             timer = new WinFormsTimer();
-            timer.Interval = 8000;
+            timer.Interval = 40000;
             timer.Tick += Timer_Tick;
 
             timer.Start();

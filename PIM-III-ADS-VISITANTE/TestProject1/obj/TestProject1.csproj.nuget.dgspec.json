@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\PIM-Visitante\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\TestProject1\\TestProject1.csproj": {}
+    "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM Avaliação\\PIM-III-ADS-VISITANTE\\TestProject1\\TestProject1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\PIM-Visitante\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj": {
+    "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM Avaliação\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\PIM-Visitante\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj",
+        "projectUniqueName": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM Avaliação\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj",
         "projectName": "PIM-III-ADS-VISITANTE",
-        "projectPath": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\PIM-Visitante\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj",
-        "packagesPath": "C:\\Users\\kenzo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\PIM-Visitante\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\obj\\",
+        "projectPath": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM Avaliação\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj",
+        "packagesPath": "C:\\Users\\Nicolas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM Avaliação\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kenzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nicolas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -85,21 +85,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\PIM-Visitante\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\TestProject1\\TestProject1.csproj": {
+    "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM Avaliação\\PIM-III-ADS-VISITANTE\\TestProject1\\TestProject1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\PIM-Visitante\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\TestProject1\\TestProject1.csproj",
+        "projectUniqueName": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM Avaliação\\PIM-III-ADS-VISITANTE\\TestProject1\\TestProject1.csproj",
         "projectName": "TestProject1",
-        "projectPath": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\PIM-Visitante\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\TestProject1\\TestProject1.csproj",
-        "packagesPath": "C:\\Users\\kenzo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\PIM-Visitante\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\TestProject1\\obj\\",
+        "projectPath": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM Avaliação\\PIM-III-ADS-VISITANTE\\TestProject1\\TestProject1.csproj",
+        "packagesPath": "C:\\Users\\Nicolas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM Avaliação\\PIM-III-ADS-VISITANTE\\TestProject1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kenzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nicolas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -113,8 +113,8 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\PIM-Visitante\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj": {
-                "projectPath": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\PIM-Visitante\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj"
+              "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM Avaliação\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj": {
+                "projectPath": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM Avaliação\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE\\PIM-III-ADS-VISITANTE.csproj"
               }
             }
           }
@@ -179,7 +179,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
         }
       }
     }
